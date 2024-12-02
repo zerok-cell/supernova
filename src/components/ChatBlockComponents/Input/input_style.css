@@ -1,0 +1,64 @@
+:root {
+  --sidebar-and-input-color:#24252B ;
+}
+
+.inputAi {
+  -webkit-box-shadow: 22px 1px 62px -60px rgb(105, 105, 105);
+  -moz-box-shadow: 22px 1px 62px -60px rgb(105, 105, 105);
+  box-shadow: 22px 1px 62px -60px rgb(105, 105, 105);
+  grid-row: 5;
+  width: 60%;
+  height: 40px;
+  background: var(--sidebar-and-input-color);
+  border: #27282E 2px solid;
+  border-radius: 50px;
+  padding-right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-items: center;
+}
+.inputAi input {
+  width: 70%;
+  outline: none;
+  border: none;
+  caret-color: #6FBE51;
+  color: white;
+  background: var(--sidebar-and-input-color);
+}
+.inputAi button {
+  transition: 100ms ease-in scale;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  border: none;
+  border-radius: 50px;
+  padding: 5px;
+  background-image: linear-gradient(130deg, hsl(105, 39%, 49%) 0%, hsl(105, 39%, 53%) 15%, hsl(104, 39%, 57%) 51%, hsl(104, 39%, 62%) 72%, hsl(104, 39%, 66%) 82%, hsl(104, 39%, 70%) 89%, hsl(105, 39%, 74%) 93%, hsl(105, 39%, 79%) 96%, hsl(105, 38%, 83%) 98%, hsl(106, 38%, 87%) 99%, hsl(106, 40%, 92%) 100%, hsl(105, 36%, 96%) 100%, hsl(0, 0%, 100%) 100%);
+}
+.inputAi button .icon-send {
+  color: white;
+  position: relative;
+  left: 2px;
+}
+.inputAi button:active {
+  scale: 1.5;
+  background: #83C85E;
+}
+
+.lefticons {
+  color: #C7C7C9;
+  width: 70px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.lefticons .maildog {
+  padding-right: 5px;
+  border-right: #2F3035 2px solid;
+}
+.lefticons .skrepka {
+  rotate: 120deg;
+}
+
+/*# sourceMappingURL=input_style.css.map */

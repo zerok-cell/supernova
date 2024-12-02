@@ -1,0 +1,26 @@
+#response-ai{
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+justify-content: center;
+  width: 100%;
+  min-height: 100px;
+  border-radius: 10px;
+  background: var(--sidebar-and-input-color);
+  h3, p{
+    margin: 0;
+    font-family: "Roboto Light", sans-serif;
+  }
+  h3{
+    color:#ECEBEB
+  }
+  p{
+    color: #888a8f;
+  }
+}
+
+.resp{
+  display: flex;
+  grid-row: 3;
+
+}
